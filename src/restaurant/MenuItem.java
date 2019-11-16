@@ -14,31 +14,18 @@ public class MenuItem {
         this.category = category;
     }
 
-    public String getItemName (){
-        return itemName;
-    }
-    public void setItemName (String aItemName){
-        itemName = aItemName;
-    }
-
+    public String getItemName (){ return itemName; }
+    public void setItemName (String aItemName){ itemName = aItemName; }
     public Double getPrice (){
         return price;
     }
-    public void setPrice (Double aPrice){
-        price = aPrice
-    }
-
+    public void setPrice (Double aPrice){ price = aPrice; }
     public String getDescription (){
         return description;
     }
     public void setDescription (String aDescription){
         description = aDescription;
     }
-
-    public String getCategory (){
-        return category;
-    }
-    public void setCategory(String aCategory) {
-        this.category = aCategory;
-    }
+    public String getCategory (){ return category; }
+    public void setCategory(String aCategory) { this.category = aCategory; }
 }
