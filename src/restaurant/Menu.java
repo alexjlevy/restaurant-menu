@@ -22,10 +22,10 @@ public class Menu {
             for(MenuItem item : this.itemsList) {
                 String menuItem = "";
 
-                menuItem += "\n" + "Category: " + item.getCategory();
-                menuItem += "\n" + item.getItemName();
-                menuItem +=  "\n" + item.getDescription();
-                menuItem += " - $" + item.getPrice() +"\n";
+                menuItem += item.getCategory() +"\n";
+                menuItem += item.getItemName() +"\n";
+                menuItem += item.getDescription() +"\n";
+                menuItem += item.getPrice();
 
                 itemsList.add(menuItem);
 
